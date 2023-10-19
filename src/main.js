@@ -8,7 +8,7 @@ import "@/assets/less/index.less"
 
 const app =  createApp(App);
 
-  app.use(store)
-     .use(router);
+app.use(store)
+   .use(router);
 
 app.mount('#app')
