@@ -72,7 +72,8 @@ export default {
           let E = u.y - q[1];
           let G = M.sqrt(D * D + E * E);
           10 > G && (0.95 < R() ? u.q = ~~(R() * v) : (0.99 < R() && (u.D *= -1), u.q += u.D, u.q %= v, 0 > u.q && (u.q += v)));
-          u.X += -D / G * u.S; u.Y += -E / G * u.S;
+          u.X += -D / G * u.S; 
+          u.Y += -E / G * u.S;
           u.x += u.X;
           u.y += u.Y;
           _(u); u.X *= u.F;
