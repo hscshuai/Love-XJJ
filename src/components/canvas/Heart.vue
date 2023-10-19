@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import lettuce from "./../../public/lib/heart/lettuce"
+import lettuce from "@/../public/lib/heart/lettuce"
 export default {
   name: 'HelloWorld',
   props: {

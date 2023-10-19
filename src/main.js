@@ -3,4 +3,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+// 全局默认样式表
+import "@/assets/less/index.less"
+
+const app =  createApp(App);
+
+  app.use(store)
+     .use(router);
+
+app.mount('#app')

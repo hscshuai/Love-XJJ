@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunklove_with_xjj"]=self["webpackChunklove_with_xjj"]||[]).push([[443],{833:function(n,t,e){e.r(t),e.d(t,{default:function(){return h}});var u=e(3396);const a={class:"about"},r=(0,u._)("h1",null,"This is an about page",-1),s=[r];function i(n,t){return(0,u.wg)(),(0,u.iD)("div",a,s)}var c=e(89);const o={},l=(0,c.Z)(o,[["render",i]]);var h=l}}]);
-//# sourceMappingURL=about.4787b3d9.js.map

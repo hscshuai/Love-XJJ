@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import Heart from '@/components/Heart.vue'
+import Heart from '@/components/canvas/Heart.vue'
 
 describe('Heart.vue', () => {
   it('renders props.msg when passed', () => {
