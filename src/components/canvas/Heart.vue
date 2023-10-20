@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <div id="flow-heart" @click="heartClear()"></div>
+    <div class="db" id="flow-heart" @click="clearHeart()"></div>
   </div>
 </template>
 
@@ -90,7 +90,7 @@ export default {
     }
 
     function final() {
-      document.getElementById("flow-heart").innerHTML = '<canvas width="1440" height="740"></canvas>';
+      document.getElementById("flow-heart").innerHTML = '<canvas style="display: block;" width="0" height="0"></canvas>';
       // lettuce.post("/serial", irRemote);
       L.Event.trigger("showLove")
     }
@@ -115,24 +115,16 @@ export default {
       setTimeout(code, n);
       return p;
     }
+  },
+  methods:{
+    clearHeart(){
+      document.getElementById('flow-heart').style.opacity = 0;
+    }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

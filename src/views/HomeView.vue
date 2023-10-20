@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import Heart from '@/components/canvas/Heart.vue'
 
 export default {
